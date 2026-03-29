@@ -22,3 +22,14 @@ section {
     box-shadow: inset 6px 6px 10px rgba(0, 0, 0, 0.1), 
                 inset -6px -6px 10px rgba(255, 255, 255, 0.8); /* simple box shadow*/
 }
+
+a {
+    color: #022300;
+    text-decoration: none;
+}
+a:hover {  
+    text-decoration: underline;
+}
+
+
+
