@@ -32,4 +32,10 @@ a:hover {
 }
 
 
+h1, h2, h3 {
+    color: #2e8b57; /* another green  */
+    text-transform: uppercase; /* AAAA */
+    letter-spacing: 0.7px;
+}
+
 
