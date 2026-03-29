@@ -12,3 +12,13 @@ h1, h2, h3 {
 article {
     margin-bottom: 20px;
 }
+
+
+section {
+    padding: 20px;          
+    margin-bottom: 25px;    
+    border-radius: 15px;    
+    
+    box-shadow: inset 6px 6px 10px rgba(0, 0, 0, 0.1), 
+                inset -6px -6px 10px rgba(255, 255, 255, 0.8); /* simple box shadow*/
+}
