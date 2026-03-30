@@ -2,7 +2,7 @@ body {
     font-family: Georgia, serif;
     margin: 20px;
     padding: 40px;
-    background-color: #ffebee;
+    background-color: #ffcdd2;
     color: #212121;
 }
 
@@ -22,7 +22,7 @@ section {
     margin-bottom: 25px;    
     border-radius: 0px;   
     border-left: 8px solid #b71c1c;
-    background-color: #ffebee;
+    background-color: #ffcdd2;
     box-shadow: inset 8px 8px 16px #d9c8cb, 
                 inset -8px -8px 16px #ffffff;
 }
