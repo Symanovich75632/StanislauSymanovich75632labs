@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="red.css" id="theme-style">
+    <title>My CV</title>
+</head>
+
+<body>
+    <button id="btn-red">Czerwony</button>
+    <button id="btn-green">Zielony</button>
+    
+    <header>
+        <h1>Stanislau Symanovich (id75632)</h1> <!-- 4 -->
+        
+        <img src="IMG_4567.jpg" alt="my oficcial photo" width="200">
+    </header>
+
+    <main>
+
+
+        <section id="notatnik">
+            <h2>New section (Local Storage)</h2>
+            <input type="text" id="note-title" placeholder="Wpisz nagłówek...">
+            <input type="text" id="note-text" placeholder="Napisz treść...">
+            <button id="add-btn">Dodaj</button>
+            <div id="notes-list"></div>
+        </section>
+            
+        
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <form id="contact-form">
+                <label for="first-name">Imię:</label>
+                <input type="text" id="first-name" autocomplete="off">
+
+                <label for="last-name">Nazwisko:</label>
+                <input type="text" id="last-name" autocomplete="off">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" autocomplete="off">
+
+                <label for="message">Wiadomość:</label>
+                <textarea id="message"></textarea>
+
+                <p id="error-message"></p>
+
+                <button type="submit" id="submit-btn">Wyślij</button>
+            </form>
+    
+            <h2>More kontakt info:</h2>
+            <p>Email: <a href="mailto:ssymano1@stu.vistula.edu.pl">ssymano1@stu.vistula.edu.pl</a></p>
+            <p>Telefon: <a href="tel:+48122422722">+48 122 422 722</a></p>
+            <p>Miasto: Warszawa</p>
+        </section>
+
+        
+        <section id="o_mnie">
+            <!-- json -->
+        </section>
+
+        <button id="toggle-btn">Ukryj Sekcję</button>
+        <section id="umiejetnosci">
+            <!-- json +js-->
+        </section>
+
+        <section id="doswiadczenie">
+             <!-- json -->
+        </section>
+
+        <section id="edukacja">
+         <!-- json -->
+        </section>
+
+        <section id="projekty">
+            <!-- json +js-->
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Stanislau Symanovich. Wszystkie prawa zastrzeżone.(nie) Student id: 75632</p> <!-- 75632 -->
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+{
+  "umiejetnosci": 
+  {
+    "tytul": "Umiejętności",
+    "lista": 
+    [
+      "Znajomosc jezyka angilskiego",
+      "Samodzilna nauka",
+      "Znajomość środowiska Windows",
+      "Podstawy MY sql server",
+      "Podstawy HTML"
+    ]
+  },
+  "projekty": 
+  {
+    "tytul": "Projekty",
+    "lista": 
+    [
+      {
+        "nazwa": "zad1_cv",
+        "link": "https://github.com/Symanovich75632/StanislauSymanovich75632labs/tree/main/zad1_cv",
+        "linkTekst": "Link do GitHub"
+      },
+      {
+        "nazwa": "Super project in my linkidin",
+        "link": "https://www.linkedin.com/in/stanislau-symanovich-17b026260/",
+        "linkTekst": "Link do LinkedIn"
+      }
+    ]
+  },
+
+  "o_mnie": 
+  {
+    "tytul": "O mnie",
+    "opis": "Jestem studentem Vistuly na kierunku informatyki"
+  },
+
+  "doswiadczenie": 
+  {
+    "tytul": "Doświadczenie",
+    "lista": 
+    [
+      {
+        "stanowisko": "Praktyka w IT w firmie \"RandomFirm\"",
+        "data": "marzec 2025 - sierpien 2025",
+        "opis": "Pomoc przy pracy."
+      },
+      {
+        "stanowisko": "Kurier dostawca",
+        "data": "czerwiec 2024 – sierpin 2024",
+        "opis": "Zwykla praca"
+      }
+    ]
+  },
+  "edukacja": 
+  {
+    "tytul": "Edukacja",
+    "opis": "Student Informatyki na wydziale nauk komputerowych (2023 - obecnie)."
+  }
+}
+
